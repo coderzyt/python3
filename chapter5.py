@@ -6,6 +6,12 @@ class customer(object):
 
 
 class testA(object):
+    def __init__(self):
+        print("created")
+
+    def __del__(self):
+        print("deleted")
+
     value = 0
 
     def printf(self):
