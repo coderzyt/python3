@@ -2,6 +2,8 @@
 ### Example user template template
 ### Example user template
 
+.DS_Store
+__pycache__/*
 # IntelliJ project files
 .idea
 *.iml
