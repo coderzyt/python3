@@ -2,7 +2,7 @@ from Node import Node
 
 
 class ReversePartNode(object):
-    def reverse_part_node(self, head, begin, end):
+    def reverse_part_node(self, head: Node, begin: int, end: int) -> Node:
         if head is None or head.next is None:
             return head
         cur = head

@@ -1,6 +1,6 @@
 # Definition for singly-linked list.
 class ListNode:
-    def __init__(self, x, y):
+    def __init__(self, x: int, y: int):
         self.val = x
         self.next = y
 

@@ -1,6 +1,9 @@
+from Node import Node
+
+
 class JosephusKill(object):
 
-    def josephus_kill(self, head, m):
+    def josephus_kill(self, head: Node, m: int):
         if head is None or head.next is None or m < 1:
             return head
 

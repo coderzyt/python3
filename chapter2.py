@@ -6,7 +6,7 @@ def get_all():
     return lis
 
 
-def print_tab(lis, boo):
+def print_tab(lis: list, boo: bool):
     cp_lis = lis[:]
     if boo:
         cp_lis.reverse()
@@ -23,7 +23,7 @@ def print_tab(lis, boo):
             print()
 
 
-def cube(x):
+def cube(x: int):
     return x * x * x
 
 

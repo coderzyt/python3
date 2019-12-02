@@ -1,9 +1,9 @@
 from mpmath import ceil
-
+from Node import Node
 
 class RemoveMiddleNode(object):
 
-    def removeMidNode(self, node):
+    def removeMidNode(self, node: Node) -> Node:
         if node.value is None or node.next is None:
             return node
         if node.next.next is None:

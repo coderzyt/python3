@@ -1,7 +1,7 @@
 from Node import Node
 
 class printCommonPart(object):
-    def print_common_part(self, head1, head2):
+    def print_common_part(self, head1: Node, head2: Node):
         while head1 is not None and head2 is not None:
             if head1.value < head2.value:
                 head1 = head1.next

@@ -3,7 +3,7 @@ from Node import Node
 
 class ReverseListNoe(object):
 
-    def reverseListNoe(self, head):
+    def reverseListNoe(self, head: Node) -> Node:
         if head is None or head.next is None:
             return head
 

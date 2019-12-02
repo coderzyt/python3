@@ -1,5 +1,5 @@
 class Solution:
-    def removeElement(self, nums: int(), val: int) -> int:
+    def removeElement(self, nums: int, val: int) -> int:
         if len(nums) == 0:
             return 0
         i = 0

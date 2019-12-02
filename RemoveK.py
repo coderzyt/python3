@@ -4,7 +4,7 @@ from Node import Node
 
 class RemoveK(object):
 
-    def remove_k_from_doubleNode(self, doubleNode, k):
+    def remove_k_from_doubleNode(self, doubleNode: DoubleNode, k: int) -> DoubleNode:
         if doubleNode is None or k <= 0:
             return doubleNode
         while doubleNode.next is not None:
@@ -16,7 +16,7 @@ class RemoveK(object):
             k = k - 1
         return doubleNode
 
-    def remove_k_from_node(self, node, k):
+    def remove_k_from_node(self, node: Node, k: int) -> Node:
         head = node
         if node is None or k <= 0:
             return node
