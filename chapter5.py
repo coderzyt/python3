@@ -203,9 +203,9 @@ class ninepic(numpic):
         return self.pic_list
 
 if __name__ == '__main__':
-    parser = optparse.OptionParser
+    parser = optparse.OptionParser()
     parser.add_option("-n", "--number", action="store", type="string", dest="num")
     option, args = parser.parse_args()
-    print_str = picprint
+    print_str = picprint()
     print_str.getprintstr(option.num)
     print_str.printstr()
