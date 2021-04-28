@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "mononoki, mononoki, 'Courier New', mononoki"
+    "editor.fontFamily": "mononoki, mononoki, 'Courier New', mononoki",
+    "python.pythonPath": "/opt/anaconda3/bin/python"
 }
